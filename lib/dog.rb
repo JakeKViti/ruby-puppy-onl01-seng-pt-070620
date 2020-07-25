@@ -11,9 +11,7 @@ class Dog
  end
 
  def self.all
-   testArray = []
-  testArray = @@all
-  return testArray
+   return @all.uniq
  end
 
  def self.print_all
