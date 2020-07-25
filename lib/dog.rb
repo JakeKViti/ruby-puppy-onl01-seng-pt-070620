@@ -10,7 +10,7 @@ class Dog
    @@all << @dog
  end
 
- def dog.all
+ def @dog.all
    return @@all
  end
 
