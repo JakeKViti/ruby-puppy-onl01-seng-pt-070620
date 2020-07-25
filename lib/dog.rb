@@ -3,10 +3,10 @@ class Dog
 
     @@all = []
 
-    attr_accessor :name
+    attr_accessor :dog
 
-    def initialize(name)
-      @name = name
+    def initialize(dog)
+      @dog = dog
       @@all << self
     end
 
