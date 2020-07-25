@@ -10,8 +10,8 @@ class Dog
    @@all << @dog
  end
 
- def self.all
-  return Dog.class_variable_get(:dog)
+ def dog.all
+   return @@all
  end
 
  def self.print_all
