@@ -1,9 +1,10 @@
 # Add your code here
 class Dog
 
+  @@all = []
+
  attr_accessor :dog
 
- @@all = []
 
  def initialize(dog)
    @dog = dog
@@ -11,9 +12,7 @@ class Dog
  end
 
  def self.all
-  @@all.each do |dog|
-    puts dog
-  end
+   @@all
  end
 
  def self.print_all
