@@ -11,7 +11,7 @@ class Dog
  end
 
  def self.all
-  return Dog.class_variable_get(@@all)
+  return Dog.class_variable_get(:dog)
  end
 
  def self.print_all
