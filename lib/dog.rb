@@ -1,20 +1,19 @@
 # Add your code here
 class Dog
-
-  @@all = []
-
- attr_accessor :dog
-
-
- def initialize(dog)
-   @dog = dog
-   @@all << @dog
- end
-
- def self.all
-   @@all
- end
-
+  
+    @@all = []
+   
+    attr_accessor :name
+   
+    def initialize(name)
+      @name = name
+      @@all << self
+    end
+   
+    def self.all
+      @@all
+    end
+  end
  def self.print_all
    puts @@all
  end
