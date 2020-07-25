@@ -11,7 +11,7 @@ class Dog
  end
 
  def self.all
-   return @@all.uniq
+   return @@all.all
  end
 
  def self.print_all
