@@ -3,15 +3,15 @@ class Dog
 
  attr_accessor :dog
 
- @@all = []
+ @@dogs = []
 
  def initialize(dog)
    @dog = dog
-   @@all << @dog
+   @@dogs << @dog
  end
 
  def self.all
-   return @all.uniq
+   return @dogs
  end
 
  def self.print_all
