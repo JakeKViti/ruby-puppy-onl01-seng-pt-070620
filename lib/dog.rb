@@ -20,7 +20,7 @@ class Dog
     @@all.clear
   end
 
- def self.print_all
+ def ogprint_all
    @@all.each do |dog|
      puts dog
    end
