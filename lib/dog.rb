@@ -1,7 +1,7 @@
 # Add your code here
 class Dog
 
- attr_reader :dog
+ attr_accessor :dog
 
  @@all = []
 
@@ -11,7 +11,7 @@ class Dog
  end
 
  def self.all
-  @@all
+  @dog
  end
 
 end
